@@ -1,24 +1,36 @@
-## Stretch
-Codebits Stretch Review questions: 
-    1. What is the difference between Git and Github?
-    2. What are the benefits of using Version Control System? 
-    3. What language is used in Git?
-    4. Mention the various Git repository hosting service providers (at least 4)
-    5. What is a repository in Git?
-    6. How can you create a repository in Git?
-    7. Name a few Git commands and explain their usage.
-    8. What is Git?
-    9. What is a .git Directory?
-    10. What happens if the .git directory gets deleted?
-?
-## Solution
-1. Git is used to create local repository and can be used to independently worked on files while Github is for central or remote repository and allows for interactions of developers in various location on a particular projects.
-2. Version Control System enables easy local access and repository storage in the local repository, it makes room for personal changes or modifications made to a file.
-3. Since Git is used to keep local repositories it can use any language.
-4. Gitlab, Github, Bitbucket, Stash, Codebase,Beanstalk.
-5. A repository in Git basically mean a folder.
-6. One can create a repository in Git by entering the command make directory "mkdir"
-7. Git Commands
+## Stretch Assignment Questions and Answers
+
+
+  1. What is the difference between Git and Github?
+         Git is used to create local repository and can be used to independently worked on files. 
+         However, Github is for central or remote repository and allows for interactions of developers in various location on a particular projects.
+         Better put, Git is a version control system that lets one manage and keep track of one's source code history. 
+         GitHub is a cloud-based hosting service that allows one to manage Git repositories. In cases of open-source projects that use Git, then GitHub is designed to help one better manage them.
+
+
+  2. What are the benefits of using Version Control System?
+          Version Control System enables easy local access and repository storage in the local repository. 
+          It makes room for personal changes or modifications made to a file. 
+
+  3. What language is used in Git?
+         Since Git is used to keep local repositories it can use any language.
+
+  4. Mention the various Git repository hosting service providers (at least 4)
+                        Gitlab, Github, Bitbucket, Stash, Codebase,Beanstalk.
+
+  5. What is a repository in Git?
+         A repository in Git basically mean a folder. A repository contains all of of one's project's files and each file's revision history. 
+       One can interact with and manage one's project's work within the repository.
+
+  6. How can you create a repository in Git?
+          A repository in Git basically mean a folder. One can create a repository in Git by entering the command make directory "mkdir". 
+         With the following steps, one can easily create a repository:
+           a. Create a directory to contain the project. Like this mkdir Newdawn(directory name)
+           b. Go into the new directory. Like this cd Newdawn
+          With this step a new directory as been made and captured into git.
+
+  7. Name a few Git commands and explain their usage.
+           Git Commands
     a. ls means to list all contents in the directory
     b. pwd means to print working directory, and this will display what is presently worked on
     c. touch means to create file
@@ -30,6 +42,17 @@ Codebits Stretch Review questions:
     i. rm -m name of file   : this is to remove a particular file
     j. git push -u is to push upstream to remote repository
     k. git commit -m is for git to register or capture additional changes
-8. Git is a version control system which possesses speed that helps in managing directories and tracking changes made in them, thereby coordinationg project workflow among team members.
-9. .git directory is the folder that contains everything (database) about the project being worked on.
-10. when .git Directory gets deleted the history is being captured, however the deleted directory cannot be retrieved from the local repository but it can be pulled from the remote server.
+
+    8. What is Git?
+         Git is a version control system which possesses speed that helps in managing directories and tracking changes made in them.
+      Git created by Linus Torvalds is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. 
+    Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems.
+    This therefore coordinate project workflow among team members. 
+     It also can be said as a local VCS software that enables developers to save snapshots of their projects over time.
+
+    9. What is a .git Directory?
+         .git directory is the folder that contains everything (database) about the project being worked on. This contains all the information that is necessary for ones's project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores one's commit history so that one can roll back to history.
+
+    10. What happens if the .git directory gets deleted?
+            when .git Directory gets deleted the history is being captured, however the deleted directory cannot be retrieved from the local repository but it can be pulled from the remote server.
+
